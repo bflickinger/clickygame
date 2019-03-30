@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clicky Game - mmm, donuts!
 
-## Available Scripts
+This game can be accessed here:  https://bflickinger.github.io/clickygame/  No donuts were harmed in the creation of this simple game.
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This project is a simple memory game that was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).  You should click only once on each image.  Each succesful click garners you one point and the array is randomized.  Clicking on an image that you've already chosen ends the game and resets the score (and also randomizes the images).  The score is kept in the navbar right side.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This website was helpful in publishing this app to git-hub pages - https://reactgo.com/deploy-react-app-github-pages/
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Technologies used
 
-### `npm test`
+1. [Create React App](https://github.com/facebookincubator/create-react-app):
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    a.  React, JSX, ES6, TypeScript and Flow syntax support.
 
-### `npm run build`
+    b. Language extras beyond ES6 like the object spread operator.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    c. Autoprefixed CSS, so you don’t need -webkit- or other prefixes.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+    d. A fast interactive unit test runner with built-in support for coverage reporting.
+    
+    e. A live development server that warns about common mistakes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    f. A build script to bundle JS, CSS, and images for production, with hashes and sourcemaps.
 
-### `npm run eject`
+    g. An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria. (Note: 
+        
+    f. Using the service worker is opt-in as of react-scripts@2.0.0 and higher)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    g. Hassle-free updates for the above tools with a single dependency.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### React Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Navbar with title and score (as props)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Jumbotron - instructions
 
-## Learn More
+3. Card - mapped with flexbox to display donuts (sent as props).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Footer - self explanatory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- - -

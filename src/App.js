@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import FriendCard from "./components/Card";
+import Card from "./components/Card";
 import Footer from "./components/Footer";
 import donut from "./donuts.json";
 import "./App.css";
@@ -71,7 +71,7 @@ class App extends Component {
         <Jumbotron />
         <div className="wrapper">
           {this.state.donut.map(donut => (
-            <FriendCard
+            <Card
               imageClick={this.imageClick}
               id={donut.id}
               key={donut.id}
